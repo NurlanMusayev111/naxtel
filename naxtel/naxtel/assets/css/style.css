@@ -1,0 +1,626 @@
+#navigation{
+    height: 130px;
+    /* border: 1px solid black; */
+}
+
+
+
+.navbar-up{
+    height: 35px;
+    /* border: 1px solid red; */
+    background-color:  #ff9100;
+}
+
+
+.navbar-up-left{
+    /* border: 1px solid black; */
+    height: 35px;
+}
+
+.navbar-up-left ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.navbar-up-left ul li{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+.navbar-up-left-line-one{
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+.navbar-up-left-line-two{
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+
+.navbar-up-right{
+    /* border: 1px solid black; */
+    height: 35px;
+}
+
+.navbar-up-right ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+.navbar-up-right ul li{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.navbar-up-right-line{
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+
+
+
+.navbar-down-left{
+    height: 70px;
+    /* border: 1px solid black; */
+    width: 120px;
+    background: url(../image/Naxtel-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+
+.navbar-down-middle ul{
+    display: flex;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.navbar-down-middle ul li{
+    margin: 0px 12px;
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.navbar-down-right{
+    margin-top: 35px;
+    margin-left: 355px;
+
+}
+
+.navbar-down-right i{
+    color: gray;
+}
+
+
+
+#slide{
+    height: 500px;
+    /* border: 1px solid black; */
+    background: url(../image/1-lik.jpg);
+    background-size: cover;
+
+}
+
+
+#cart{
+    height: 650px;
+    /* border: 1px solid black; */
+}
+
+
+.cart-header{
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 30px;
+
+}
+
+
+.cart-header h2{
+    color: gray;
+    font-weight: 500;
+}
+
+
+
+.cart-left{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid black; */
+    background: url(../image/Avantaj-10_2.jpg);
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.cart-middle{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid black; */
+    background: url(../image/Avantaj-15_2.jpg);
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.cart-right{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid black; */
+    background: url(../image/Avantaj-25_2.jpg);
+    background-size: contain;
+    margin-top: 20px;
+}
+
+
+
+
+
+#application{
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: #ff9100;
+    border-radius: 0px 0px 0px 350px;
+    display: flex;
+    background-image: url(../image/naxtel_plus_background_en.png);
+    background-position: right;
+    padding-top: 30px;
+}
+
+
+
+
+.app-left{
+    height: 480px;
+    width: 850px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+
+
+
+.app-left img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.app-left h1{
+    color: white;
+    font-size: 48px;
+    margin-left: 34px;
+    margin-top: 20px;
+}
+
+
+.app-left h4{
+    color: white;
+    line-height: 25px;
+    margin-left: 34px;
+    font-size: 18px;
+}
+
+
+.app-left-btn{
+    height: 100px;
+    width: 850px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+
+.app-left-btn-one img{
+    margin-top: 14px;
+    height: 55px;
+    width: 190px;
+}
+
+.app-left-btn-two img{
+    margin-top: 14px;
+    height: 55px;
+    width: 190px;
+}
+
+.app-left-btn-three img{
+    margin-top: 14px;
+    height: 55px;
+    width: 190px;
+}
+
+
+
+.app-right{
+    height: 480px;
+    width: 600px;
+    /* border: 1px solid black; */
+}
+
+
+
+
+#suggest{
+    height: 500px;
+    /* border: 1px solid black; */
+    
+}
+
+.suggest-header{ 
+   height: 50px;
+   width: 100%;
+   /* border: 1px solid black; */
+   display: flex;
+   margin-top: 30px;
+}
+
+.suggest-header h2{
+    margin-left: 580px;
+}
+
+
+.suggest-cart-one{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black;  */
+    margin-top: 25px;  
+}
+
+.suggest-cart-one img{
+    height: 185px;
+    width: 185px;
+    margin-left: 55px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.suggest-cart-one h3{
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 91px;
+    margin-top: 10px;
+}
+
+.suggest-cart-one-btn{
+    margin-left: 100px;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid #ff9100;
+    border-radius: 20px;
+    color: #ff9100;
+    padding: 1px 10px;
+    transition: all 0.5s ease;
+}
+
+.suggest-cart-one-btn:hover{
+    background-color: #ff9100;
+    color: white;
+}
+
+
+.suggest-cart-two{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-top: 25px;  
+}
+
+.suggest-cart-two img{
+    height: 185px;
+    width: 185px;
+    margin-left: 55px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.suggest-cart-two h3{
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 91px;
+    margin-top: 10px;
+}
+
+.suggest-cart-two-btn{
+    margin-left: 100px;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid #ff9100;
+    border-radius: 20px;
+    color: #ff9100;
+    padding: 1px 10px;
+    transition: all 0.5s ease;
+}
+
+.suggest-cart-two-btn:hover{
+    background-color: #ff9100;
+    color: white;
+}
+
+.suggest-cart-three{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-top: 25px;  
+}
+
+.suggest-cart-three img{
+    height: 185px;
+    width: 185px;
+    margin-left: 55px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.suggest-cart-three h3{
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 91px;
+    margin-top: 10px;
+}
+
+.suggest-cart-three-btn{
+    margin-left: 100px;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid #ff9100;
+    border-radius: 20px;
+    color: #ff9100;
+    padding: 1px 10px;
+    transition: all 0.5s ease;
+}
+
+.suggest-cart-three-btn:hover{
+    background-color: #ff9100;
+    color: white;
+}
+
+.suggest-cart-four{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 25px;  
+}
+
+.suggest-cart-four img{
+    height: 185px;
+    width: 185px;
+    margin-left: 55px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.suggest-cart-four h3{
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 91px;
+    margin-top: 10px;
+}
+
+.suggest-cart-four-btn{
+    margin-left: 100px;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid #ff9100;
+    border-radius: 20px;
+    color: #ff9100;
+    padding: 1px 10px;
+    transition: all 0.5s ease;
+}
+
+.suggest-cart-four-btn:hover{
+    background-color: #ff9100;
+    color: white;
+}
+
+
+
+#news{
+    height: 440px;
+    background-color: #f7f7f7;;
+}
+
+.news-header{
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+
+.news-cart-one{
+    margin-top: 40px;
+    height: 320px;
+    width: 540px;
+    /* border: 1px solid black; */
+}
+
+.news-cart-one h5{
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.news-cart-one h2{
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+}
+
+.news-cart-one h6{
+    color: gray;
+    margin-top: 18px;
+}
+
+.news-cart-btn{
+    border: 1px solid #ff9100;
+    border-radius: 25px;
+    background: none;
+    color: #ff9100;
+    font-weight: 400;
+    padding: 2px 14px;
+    margin-top: 12px;
+    transition: all 0.5s ease;
+}
+
+
+.news-cart-btn:hover{
+    background-color: #ff9100;
+    color: white;
+}
+.news-cart-two{
+    margin-top: 40px;
+    height: 320px;
+    width: 540px;
+    /* border: 1px solid black; */
+}
+
+.news-cart-two h5{
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 33px;
+}
+
+.news-cart-two h2{
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+    margin-top: 33px;
+}
+
+.news-cart-two h6{
+    color: gray;
+    margin-top: 18px;
+    margin-top: 33px;
+}
+
+
+
+.end-up{
+    background-color: rgb(51,167,181);
+    height: 340px;
+}
+
+
+.end-up-one{
+    height: 280px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.end-up-one h5{
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.end-up-two{
+    height: 280px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.end-up-two h5{
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.end-up-three{
+    height: 280px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.end-up-three h5{
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+
+.end-up-four{
+    height: 280px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.end-up-four h5{
+    margin-left: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+
+.end-down{
+    height: 100px;
+    background-color: #0068a4;;
+}
+
+
+
+@media only screen and (max-width:782px){
+    h2{
+        font-size: 10px !important;
+        
+    }
+    h6{
+        font-size: 10px;
+    }
+
+    h5{
+        font-size: 1px;
+    }
+
+
+
+    .news-cart-btn{
+        margin-left: 80px;
+        
+    }
+
+    .news-cart{
+        display: flex;
+        height: 200px;
+        width: 150px;
+    }
+}
